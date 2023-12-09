@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Snippet Cheatsheet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+       <h1>CSS Snippet Cheatsheet</h1>
+       <nav>
+        <a href="">About Me</a>
+        <a href="">Work</a>
+        <a href="">Resume</a>
+       </nav>
+    </header>
+
+    <main>
+        <div>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Use these three properties to create a Flexbox row layout</p>
+            <ul>.row {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    }</ul>
+        </section>
+        
+        <img class="website" src="./images/website-top2.PNG">
+        <img class="website" src="./images/website3.PNG">
+
+        <section class="work">
+            <h2>Work</h2>
+            <p>Use this to create a Flexbox column layout.</p>
+            <ul>.column {
+                Display: flex;
+                Flex-direction: column;
+            }
+            </ul>
+        </section>
+
+        <section class="">
+            <h2>CSS Grid Layout</h2>
+            <p>Build a 12-column layout using CSS Grid</p>
+            <ul>.grid {
+                display: grid;
+                Width: 100%
+            grid-template-columns: repeat(12, 1fr);
+            }
+            </ul>
+        </section>
+      </div>
+    </main>
+</body>
+
+<footer>
+    <h3>Contact Me</h3>
+</footer>

@@ -1,0 +1,66 @@
+:root {
+    --pink: #d91e63;
+    --magenta: #a6216a;
+    --yellow: #f2b33d;
+    --orange: #d96f32;
+  }
+
+  h1 {
+    font-size: 48px;
+    display: inline-block;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--pink);
+  }
+
+  .header {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--magenta);
+    color: var(--orange);
+    font-weight:bolder
+  }
+
+  nav {
+    float: right;
+  }
+
+  a {
+    margin-right: 20px;
+    color: var(--orange);
+    font-size: 20px;
+  }
+
+  .website {
+    height: 490px;
+    width: 50%;
+    margin-left: 7px;
+  }
+
+  main {
+  }
+
+  section {
+    width: 50%;
+    background-color: var(--yellow);
+    padding: 10px;
+    margin: 20px 0px 0px 1px;
+    border: 6px solid var(--magenta);
+    color: var(--orange);
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--magenta);
+    padding: 40px;
+    color: var(--orange);
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
