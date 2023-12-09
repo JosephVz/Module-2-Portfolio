@@ -89,3 +89,14 @@ footer {
 h3 {
     font-size: 30px;
 }
+
+.footer {
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .picture {
+      width: 100%;
+    }
+}
