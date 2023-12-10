@@ -110,4 +110,75 @@
     .picture {
       width: 100%;
     }
+    #snapchat {
+        width: 100%;
+        border: 6px solid #a290e8;
+    }
+    body {
+        background-color: #c39be6;
+    }
+    .header {
+        background-color: #a290e8;
+        color: #e69acb;
+    }
+    nav a {
+        color: #e69acb;
+    }
+    .picture {
+        border-left: 6px solid #a290e8;
+        border-right: 6px solid #a290e8;
+    }
+    #website1 {
+        border-top: 6px solid #a290e8;
+    }
+    #website2 {
+        border-bottom: 6px solid #a290e8;
+    }
+    section {
+        background-color: #9aa3e6;
+        border: 6px solid #a290e8;
+        color: #6e80e0;
+    }
+    footer {
+        background-color: #a290e8;
+        color: #e69acb;
+    }
+  }
+    @media screen and (max-width: 768px) {
+        .picture {
+            width: 100%;
+          }
+          #snapchat {
+              width: 100%;
+              border: 6px solid #addbe5;
+          }
+          body {
+              background-color: #aecae6;
+          }
+          .header {
+              background-color: #addbe5;
+              color: #aeb9e6;
+          }
+          nav a {
+              color: #aeb9e6;
+          }
+          .picture {
+              border-left: 6px solid #addbe5;
+              border-right: 6px solid #addbe5;
+          }
+          #website1 {
+              border-top: 6px solid #addbe5;
+          }
+          #website2 {
+              border-bottom: 6px solid #addbe5;
+          }
+          section {
+              background-color: #aeb9e6;
+              border: 6px solid #addbe5;
+              color: #aee6cb;
+          }
+          footer {
+              background-color: #addbe5;
+              color: #aeb9e6;  
+    }
   }
