@@ -56,8 +56,8 @@
   #website1 {
      border-top: 6px solid var(--magenta);
      height: 500px;
-     margin-top: 20px;
      cursor: grab;
+     margin-top: 20px;
   }
 
   #website2 {
@@ -71,6 +71,12 @@
     height: 1000px;
     border: 6px solid var(--magenta);
     width: 35%;
+  }
+
+  #snapchat2 {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   section {
@@ -107,26 +113,65 @@
   }
 
   @media screen and (max-width: 992px) {
+    body {
+        background-color: #aecae6;
+    }
+    .header {
+        background-color: #aeb9e6;
+        color: #addbe5;
+    }
+    nav a {
+        color: #addbe5;
+    }
+    section {
+      background-color: #aeb9e6;
+      border: 6px solid #addbe5;
+      color: #aee6cb;
+    }
     .picture {
-      width: 100%;
+        width: 100%;
+        border-left: 6px solid #addbe5;
+        border-right: 6px solid #addbe5;
     }
     #snapchat {
-        width: 100%;
-        border: 6px solid #a290e8;
+        display: none;
     }
+    #snapchat2 {
+        width: 100%;
+        border: 6px solid #addbe5;
+        display: block;
+    }
+    #website1 {
+        border-top: 6px solid #addbe5;
+    }
+    #website2 {
+        border-bottom: 6px solid #addbe5;
+    }
+    footer {
+        background-color: #aeb9e6;
+        color: #addbe5;
+    }
+  }
+    @media screen and (max-width: 768px) {
     body {
         background-color: #c39be6;
     }
     .header {
-        background-color: #a290e8;
+        background-color:#a290e8;
         color: #e69acb;
     }
     nav a {
         color: #e69acb;
     }
+    section {
+      background-color: #9aa3e6;
+      border: 6px solid #a290e8;
+      color: #6e80e0;
+    }
     .picture {
         border-left: 6px solid #a290e8;
         border-right: 6px solid #a290e8;
+        width: 100%;
     }
     #website1 {
         border-top: 6px solid #a290e8;
@@ -134,51 +179,18 @@
     #website2 {
         border-bottom: 6px solid #a290e8;
     }
-    section {
-        background-color: #9aa3e6;
-        border: 6px solid #a290e8;
-        color: #6e80e0;
+    #snapchat {
+      width: 100%;
+      border: 6px solid #a290e8;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #snapchat2 {
+      display: none;
     }
     footer {
         background-color: #a290e8;
         color: #e69acb;
-    }
-  }
-    @media screen and (max-width: 768px) {
-        .picture {
-            width: 100%;
-          }
-          #snapchat {
-              width: 100%;
-              border: 6px solid #addbe5;
-          }
-          body {
-              background-color: #aecae6;
-          }
-          .header {
-              background-color: #addbe5;
-              color: #aeb9e6;
-          }
-          nav a {
-              color: #aeb9e6;
-          }
-          .picture {
-              border-left: 6px solid #addbe5;
-              border-right: 6px solid #addbe5;
-          }
-          #website1 {
-              border-top: 6px solid #addbe5;
-          }
-          #website2 {
-              border-bottom: 6px solid #addbe5;
-          }
-          section {
-              background-color: #aeb9e6;
-              border: 6px solid #addbe5;
-              color: #aee6cb;
-          }
-          footer {
-              background-color: #addbe5;
-              color: #aeb9e6;  
     }
   }
