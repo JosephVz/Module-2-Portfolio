@@ -73,6 +73,10 @@
     width: 35%;
   }
 
+  #snapchat2 {
+    display: none;
+  }
+  
   section {
     width: 100%;
     background-color: var(--yellow);
@@ -134,6 +138,9 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    #snapchat2 {
+      display: none;
+    }
     #website1 {
         border-top: 6px solid #addbe5;
     }
@@ -173,6 +180,9 @@
         border-bottom: 6px solid #a290e8;
     }
     #snapchat {
+      display:none;
+    }
+    #snapchat2 {
       width: 100%;
       border: 6px solid #a290e8;
       display: block;
