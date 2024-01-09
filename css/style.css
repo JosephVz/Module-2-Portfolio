@@ -76,6 +76,13 @@
   #snapchat2 {
     display: none;
   }
+
+  #project1 {
+    border: 6px solid var(--magenta);
+    cursor: grab;
+    width: 100%;
+    margin-top: 20px;
+  }
   
   section {
     width: 100%;
@@ -141,6 +148,9 @@
     #snapchat2 {
       display: none;
     }
+    #project1 {
+      border: 6px solid #addbe5;
+    }
     #website1 {
         border-top: 6px solid #addbe5;
     }
@@ -178,6 +188,9 @@
     }
     #website2 {
         border-bottom: 6px solid #a290e8;
+    }
+    #project1 {
+      border: 6px solid #a290e8;
     }
     #snapchat {
       display:none;
