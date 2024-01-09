@@ -55,7 +55,7 @@
 
   .picture {
     display: block;
-    width: 65%;
+    width: 63%;
     border-left: 6px solid var(--magenta);
     border-right: 6px solid var(--magenta);
   }
@@ -63,6 +63,7 @@
   #website1 {
      border-top: 6px solid var(--magenta);
      border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
      height: 500px;
      cursor: grab;
      margin-top: 20px;
@@ -73,6 +74,7 @@
     height: 500px;
     cursor: grab;
     border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   #snapchat {
@@ -80,8 +82,8 @@
     height: 1000px;
     border: 6px solid var(--magenta);
     width: 35%;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
+    margin-left: 5px;
   }
 
   #snapchat2 {
@@ -172,11 +174,9 @@
     }
     #website1 {
         border-top: 6px solid #addbe5;
-        border-top-right-radius: 8px;
     }
     #website2 {
         border-bottom: 6px solid #addbe5;
-        border-bottom-right-radius: 8px;
     }
     footer {
         background-color: #aeb9e6;
